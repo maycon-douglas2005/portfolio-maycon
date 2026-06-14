@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Projetos from "./components/Projetos";
 import SobreMim from "./components/SobreMim";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <main>
         <Hero />
         <SobreMim />
+        <Projetos />
       </main>
     </>
   );
