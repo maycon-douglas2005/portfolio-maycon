@@ -9,7 +9,7 @@ function Projetos() {
           </h3>
           <img
             className=" h-72"
-            src="./src/assets/gc_print.png"
+            src="/images/gc_print.png"
             alt="Print do Software Gestão Camaleão"
           />
           <div className=" flex flex-col gap-3">
@@ -40,7 +40,7 @@ function Projetos() {
         <article className="grid grid-cols-2 grid-rows-[20%_80%] px-5">
           <h3 className="text-2xl col-span-2 text-center">MyContacts</h3>
           <img
-            src="./src/assets/mycontacts_print.png"
+            src="/images/mycontacts_print.png"
             alt="Print do Software MyContacts"
             className="h-72"
           />
@@ -74,7 +74,7 @@ function Projetos() {
             Advocacia Ingrid Chaves
           </h3>
           <img
-            src="./src/assets/adv_print.png"
+            src="/images/adv_print.png"
             alt="Print do Software Institucional Advogada"
             className="h-72"
           />

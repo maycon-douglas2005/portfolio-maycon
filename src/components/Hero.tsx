@@ -4,7 +4,7 @@ function Hero() {
     <>
       <section className="flex py-8 justify-center">
         <img
-          src="./src/assets/info.png"
+          src="/images/info.png"
           className="ml-3 h-64 rounded-full border-2 border-[#A1C6EA]"
           alt=""
         />
