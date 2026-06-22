@@ -15,7 +15,7 @@ function Hero() {
           </p>
 
           <h2 className="mt-5 text-xl">MAYCON CHAVES</h2>
-          <p>  21 Anos | Procurando Estágio |  Santo André, São Paulo</p>
+          <p>  21 Anos | Santo André, São Paulo</p>
           
           <button className="self-center mt-5 bg-[#507DBC] p-4 rounded-sm cursor-pointer text-white">Veja Meus Projetos</button>
         </div>

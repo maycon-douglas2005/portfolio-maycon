@@ -1,3 +1,4 @@
+import Contato from "./components/Contato";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Projetos from "./components/Projetos";
@@ -11,6 +12,7 @@ function App() {
         <Hero />
         <SobreMim />
         <Projetos />
+        <Contato />
       </main>
     </>
   );

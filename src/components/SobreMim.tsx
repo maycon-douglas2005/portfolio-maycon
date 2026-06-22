@@ -9,12 +9,12 @@ function SobreMim() {
 
         <ul className="flex flex-col gap-3 text-xl">
           <li>
-            ✓ Tecnólogo em Análise e Desenvolvimento de Software Concluído
+            ✓ Tecnólogo em Análise e Desenvolvimento de Software
           </li>
           <li>✓ Bacharel em Engenharia de Software (Cursando)</li>
           <li>✓ PHP • Bootstrap • Javascript • MySQL</li>
-          <li>✓ Node • React • TypeScript</li>
-          <li>✓ Git • GitHub • Scrum</li>
+          <li>✓ Node • React • TypeScript • Tailwind CSS</li>
+          <li>✓ Git • GitHub • Jira Cloud</li>
           <li>✓ Em busca da primeira oportunidade na área</li>
         </ul>
         <p className="text-[#DAE3E5] text-xl ">

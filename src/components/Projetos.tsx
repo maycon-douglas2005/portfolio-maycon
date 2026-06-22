@@ -1,14 +1,14 @@
 function Projetos() {
   return (
     <>
-      <section id="meusProjetos" className="w-full flex flex-col justify-center items-center gap-12 pt-6">
+      <section id="meusProjetos" className="w-full flex flex-col justify-center items-center ">
         <h2 className="text-5xl col-span-3 ">Meus Projetos</h2>
-        <article className="grid grid-cols-2 grid-rows-[20%_80%] px-5">
+        <article className=" grid grid-cols-2 grid-rows-[9%_91%] px-5 gap-4">
           <h3 className="text-2xl col-span-2 text-center">
            Gestão Camaleão
           </h3>
           <img
-            className=" h-72"
+            className=""
             src="/images/gc_print.png"
             alt="Print do Software Gestão Camaleão"
           />
@@ -37,12 +37,12 @@ function Projetos() {
           </div>
         </article>
         <hr />
-        <article className="grid grid-cols-2 grid-rows-[20%_80%] px-5">
+        <article className=" grid grid-cols-2 grid-rows-[9%_91%] px-5 gap-4">
           <h3 className="text-2xl col-span-2 text-center">MyContacts</h3>
           <img
             src="/images/mycontacts_print.png"
             alt="Print do Software MyContacts"
-            className="h-72"
+            className=""
           />
           <div className="flex flex-col gap-3">
             <p>
@@ -69,14 +69,14 @@ function Projetos() {
           </div>
         </article>
         <hr />
-        <article className="grid grid-cols-2 grid-rows-[20%_80%] px-5">
+        <article className=" grid grid-cols-2 grid-rows-[9%_91%] px-5 gap-4">
           <h3 className="text-2xl col-span-2 text-center">
             Advocacia Ingrid Chaves
           </h3>
           <img
             src="/images/adv_print.png"
             alt="Print do Software Institucional Advogada"
-            className="h-72"
+            className=""
           />
           <div className="flex flex-col gap-3">
             <p>
