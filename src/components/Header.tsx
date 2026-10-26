@@ -3,9 +3,7 @@ function Header() {
     <>
       <header className="w-full bg-[#151E3F]">
         <nav className="flex justify-between items-center pt-2 pb-2">
-          <p className="ml-8 text-xl">
-            Maycon Chaves
-          </p>
+          <p className="ml-8 text-xl">Maycon Chaves</p>
 
           <ul className="flex gap-8 mr-8">
             <li>
@@ -15,7 +13,7 @@ function Header() {
               <a href="#meusProjetos">Projetos</a>
             </li>
             <li>
-              <a href="">Contato</a>
+              <a href="#meuContato">Contato</a>
             </li>
           </ul>
         </nav>

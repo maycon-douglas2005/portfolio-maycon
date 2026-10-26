@@ -1,35 +1,29 @@
 function Projetos() {
   return (
     <>
-      <section id="meusProjetos" className="w-full flex flex-col justify-center items-center ">
+      <section
+        id="meusProjetos"
+        className="w-full flex flex-col justify-center items-center py-10"
+      >
         <h2 className="text-5xl col-span-3 ">Meus Projetos</h2>
-        <article className=" grid grid-cols-2 grid-rows-[9%_91%] px-5 gap-4">
-          <h3 className="text-2xl col-span-2 text-center">
-           Gestão Camaleão
-          </h3>
+        <article className=" grid grid-cols-2 grid-rows-[9%_91%] px-5 gap-4 mt-5">
+          <h3 className="text-2xl col-span-2 text-center">Automação RPA</h3>
           <img
             className=""
-            src="/images/gc_print.png"
+            src="/images/projeto_rpa.png"
             alt="Print do Software Gestão Camaleão"
           />
           <div className=" flex flex-col gap-3">
             <p>
-              Gestão Camaleão PDV é uma solução completa de frente de caixa
-              pensada para quem precisa de velocidade no atendimento, controle
-              de estoque simples e relatórios úteis.
+              Robô de automação (PyAutoGUI) que extrai, trata e insere dados do
+              Excel em formulários web do sistema SEI.
             </p>
 
-            <p>Stack: Next.js, Typescript e Tailwind CSS.</p>
+            <p>Stack: Python (PyAutoGUI, Pyperclip)</p>
             <div className="flex flex-row gap-8">
               <a
                 className="bg-[#507DBC] rounded-sm p-3"
-                href="https://gestao-camaleao-front.vercel.app/"
-              >
-                Ver Site
-              </a>
-              <a
-                className="bg-[#507DBC] rounded-sm p-3"
-                href="https://github.com/luanfabruzzi/gestao-camaleao"
+                href="https://github.com/maycon-douglas2005/rpa-excel-sei-sync"
               >
                 Acessar Repositório
               </a>
@@ -37,7 +31,7 @@ function Projetos() {
           </div>
         </article>
         <hr />
-        <article className=" grid grid-cols-2 grid-rows-[9%_91%] px-5 gap-4">
+        <article className=" grid grid-cols-2 grid-rows-[9%_91%] px-5 gap-4 mt-5">
           <h3 className="text-2xl col-span-2 text-center">MyContacts</h3>
           <img
             src="/images/mycontacts_print.png"
@@ -55,12 +49,6 @@ function Projetos() {
             <div className="flex flex-row gap-8">
               <a
                 className="bg-[#507DBC] rounded-sm p-3"
-                href="https://mycontacts.page.gd/"
-              >
-                Ver Site
-              </a>
-              <a
-                className="bg-[#507DBC] rounded-sm p-3"
                 href="https://github.com/maycon-douglas2005/MyContacts"
               >
                 Acessar Repositório
@@ -69,7 +57,7 @@ function Projetos() {
           </div>
         </article>
         <hr />
-        <article className=" grid grid-cols-2 grid-rows-[9%_91%] px-5 gap-4">
+        <article className=" grid grid-cols-2 grid-rows-[9%_91%] px-5 gap-4 mt-5">
           <h3 className="text-2xl col-span-2 text-center">
             Advocacia Ingrid Chaves
           </h3>
@@ -88,8 +76,16 @@ function Projetos() {
 
             <p>Stack: HTML, CSS e Javascript.</p>
             <div className="flex flex-row gap-8">
-              <a className="bg-[#507DBC] rounded-sm p-3" href="https://ingrid-chaves-advocacia.vercel.app/">Ver Site</a>
-              <a className="bg-[#507DBC] rounded-sm p-3" href="https://github.com/maycon-douglas2005/INGRID-CHAVES-ADVOCACIA">
+              <a
+                className="bg-[#507DBC] rounded-sm p-3"
+                href="https://ingrid-chaves-advocacia.vercel.app/"
+              >
+                Ver Site
+              </a>
+              <a
+                className="bg-[#507DBC] rounded-sm p-3"
+                href="https://github.com/maycon-douglas2005/INGRID-CHAVES-ADVOCACIA"
+              >
                 Acessar Repositório
               </a>
             </div>
